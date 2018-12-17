@@ -11,6 +11,11 @@
 	padding: 10px;
 }
 
+.center
+{
+	text-align: center;
+}
+
 .font-lato
 {
 	font-family: 'Lato', sans-serif;
