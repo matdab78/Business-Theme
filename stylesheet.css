@@ -11,6 +11,128 @@
 	padding: 10px;
 }
 
+#banner
+{
+	background-color: #709dca;
+}
+
+#banner-h1
+{
+	margin-top: 0px;
+	padding-top: 75px;
+	font-size: 30px;
+	margin-bottom: 0px;
+}
+
+#banner-form
+{
+	margin-bottom: 85px;
+}
+
+.input-group-addon
+{
+	background-color: white;
+}
+
+.no-border-left
+{
+	border-left: 0px;
+}
+
+#banner-form-btn
+{
+	background-color: #ffbb42;
+	border-radius: 6px;
+	border-color: #ffbb42;
+	height: 46px;
+	width: 211px;
+	text-align: center;
+}
+
+#carousel
+{
+	margin-left: 15%;
+	margin-right: 15%;
+	z-index: 1;
+}
+
+.carousel-indicators
+{
+	position: relative;
+	top: 394px;
+	bottom: 0;
+	left: 0;
+	width: initial;
+	padding-left: initial;
+	margin-left: 0px;
+	text-align: center;
+}
+
+.carousel-indicators li
+{
+	border: 3px solid #dedfe0;
+}
+
+.carousel-indicators .active
+{
+	border-color: #1ca8dd;
+}
+
+.carousel-inner
+{
+	width: 445px;
+	height: 264px;
+}
+
+.carousel-inner > .item > img
+{
+	width: 445px;
+	height: 264px;
+}
+
+.carousel-control
+{
+	background-image: none;
+	opacity: 1;
+	text-shadow: none;
+	height: 20px;
+}
+
+.carousel-control.left
+{
+	background-image: none;
+	text-align: right;
+	top: 137px;
+	bottom: 137px;
+	left: -108px;
+	right: 108px;
+}
+
+.carousel-control.right
+{
+	background-image: none;
+	text-align: left;
+	top: 137px;
+	bottom: 137px;
+	left: 496px;
+	right: -496px;
+}
+
+#img-laptop
+{
+	margin: 0 15%;
+	position: relative;
+	top: -282px;
+	bottom: 282px;
+	left: -102px;
+	right: 102px;
+}
+
+.color-white
+{
+	color: white;
+}
+
 .center
 {
 	text-align: center;
