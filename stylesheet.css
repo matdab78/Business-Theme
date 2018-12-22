@@ -110,6 +110,34 @@
 	right: 102px;
 }
 
+#about-us {
+	padding: 0px;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+#about-usImg {
+	width: 100%;
+}
+
+#about-usText {
+	background-color: #ffc154;
+}
+
+#about-usText > .container-fluid {
+	padding-top: 90px;
+}
+
+#about-usText > .container-fluid > .col-xs-10 > form > button {
+	background-color: #ffc154;
+	border-radius: 6px;
+	border-color: #f2b74f;
+	padding: 9px 16px;
+}
+
 .color-white {
 	color: white;
 }
