@@ -114,7 +114,7 @@
 	padding: 0px;
 }
 
-.grid {
+#about-us-Grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
@@ -136,6 +136,97 @@
 	border-radius: 6px;
 	border-color: #f2b74f;
 	padding: 9px 16px;
+}
+
+#pricing-table {
+	background-color: #e6edf3;
+}
+
+#pricing-table > h2 {
+	margin-top: 75px;
+	margin-bottom: 0px;
+}
+
+#pricing-table > p {
+	margin-bottom: 29px;
+}
+
+#pricing-table > div {
+	margin-bottom: 90px
+}
+
+#pricing-table-Grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+#pricing-table-Grid > div > span > span {
+	font-size: 25px;
+	margin-bottom: 0px;
+	color: #fcba40;
+	font-weight: bold;
+}
+
+#pricing-table-Grid > #premiumPlan > span > span {
+	color: #fff;
+}
+
+#pricing-table-Grid > div > span > span > p {
+	display: inline;
+	color: #fcba40;
+	font-size: 19px;
+	position: relative;
+	top: -9px;
+	bottom: 9px;
+	font-weight: normal;
+}
+
+#pricing-table-Grid > #premiumPlan > span > span > p {
+	color: #fff;
+}
+
+#pricing-table-Grid > div > .firstP {
+	border-top: 0px none transparent;
+	padding: 0 0 17px 0;
+}
+
+#pricing-table-Grid > div > form > button {
+	background-color: #ffb93f;
+	border: 0px;
+	margin-top: 19px;
+}
+
+#pricing-table-Grid > #basicPlan > form > button {
+	margin-bottom: 26px;
+}
+
+#basicPlan , #goldPlan {
+	margin: 17px 0px;
+	background-color: white;
+}
+
+#basicPlan > h3 , #goldPlan > h3 {
+	margin-top: 31px;
+}
+
+#basicPlan > p , #goldPlan > p {
+	border-top: 2px solid #f3f7fa;
+	margin: 0 16px;
+	padding: 8px 0px 7px 0px;
+}
+
+#premiumPlan {
+	background-color: #719dca;
+}
+
+#premiumPlan > h3 {
+	margin-top: 48px;
+}
+
+#premiumPlan > p {
+	border-top: 2px solid #79a6d0;
+	margin: 0 16px;
+	padding: 8px 0px 7px 0px;
 }
 
 .color-white {
