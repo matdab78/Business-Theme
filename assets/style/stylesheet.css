@@ -110,6 +110,14 @@
 	right: 102px;
 }
 
+#services > .row:first-child > div > h2 {
+	margin-bottom: 0px;
+}
+
+#services > .row:first-child > div > p {
+	margin-bottom: 80px;
+}
+
 #services > .row:last-child {
 	margin-bottom: 75px;
 }
@@ -255,6 +263,10 @@
 
 .font-openSans {
 	font-family: 'Open Sans';
+}
+
+.light {
+	font-weight: lighter;
 }
 
 .navbar > .nav > li > a {
